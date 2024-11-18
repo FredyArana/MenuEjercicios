@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".AgeCalculatorFragment">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Edades"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etAnaAgeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la edad de Ana"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCalculateAges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Calcular Edades"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#8A2BE2"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/tvAgesResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="@drawable/text_background" />
+
+    <ImageView
+        android:id="@+id/ivHermanos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="2dp"
+        android:contentDescription="Imagen de hermanos"
+        android:background="@drawable/image_border"
+        android:src="@drawable/hermanos"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+</LinearLayout>

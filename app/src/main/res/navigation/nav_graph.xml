@@ -1,0 +1,41 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/primeFragment">
+
+    <fragment
+        android:id="@+id/primeFragment"
+        android:name="com.fredy.menuapp.PrimeNumberFragment"
+        android:label="Ejercicio1"
+        tools:layout="@layout/fragment_prime_number" />
+
+    <fragment
+        android:id="@+id/ageFragment"
+        android:name="com.fredy.menuapp.AgeCalculatorFragment"
+        android:label="Ejercicio2"
+        tools:layout="@layout/fragment_age_calculator" />
+
+    <fragment
+        android:id="@+id/triangleFragment"
+        android:name="com.fredy.menuapp.TriangleAreaFragment"
+        android:label="Ejercicio3"
+        tools:layout="@layout/fragment_triangle_area" />
+
+    <fragment
+        android:id="@+id/wallFragment"
+        android:name="com.fredy.menuapp.WallConstructionFragment"
+        android:label="Ejercicio4"
+        tools:layout="@layout/fragment_wall_construction" />
+
+    <fragment
+        android:id="@+id/factorFragment"
+        android:name="com.fredy.menuapp.FactorizationFragment"
+        android:label="Ejercicio5"
+        tools:layout="@layout/fragment_factorization" />
+
+    <fragment
+        android:id="@+id/compositeFragment"
+        android:name="com.fredy.menuapp.CompositeCheckerFragment"
+        android:label="Ejercicio6"
+        tools:layout="@layout/fragment_composite_checker" />
+</navigation>
